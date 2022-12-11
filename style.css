@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+   
+    list-style: none;
+}
+main{
+ display: flex;
+ margin-top: 32px;
+
+}
+a{
+    text-decoration: none;
+    color: #3c96ed;}
+
+body{
+    background-color: #fafafa;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+.left{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    
+}
+.left .left-img{
+    position:fixed;
+}
+.left .img-transition .img-transition1{
+    position: relative;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+.right{
+    width: 50%;
+   margin-top: 20px;
+   width:400px ;
+   
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input, [type=password],[type=text] { 
+    background-color: #ffff;
+    border:1px solid rgba(236, 234,234);
+    border-radius: 4px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 320px;
+    color: #000;
+}
+input, [type=password]::placeholder,[type=text]::placeholder{
+    color: rgba(165,164,164);
+    
+    }
+    input, [type=password]:focus,[type=text]:focus{
+        border: 1px solid #a1a1a1;
+    }
+    input,[submit]{
+        width: 340px;
+        margin-top: 10px;
+        height: 30px;
+        border: 0;
+        background-color:#3c96ed ;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        padding-bottom: 25px;
+        color: #ffff;
+        cursor: pointer;
+   }    
+   .info-box{
+    background-color: #ffff;
+    border:1px solid rgba(236, 234,234);
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    padding: 10px;
+   
+}
+.right .login-panel{
+    width: 400px;
+    border:1px solid rgba(236, 234,234);
+    border-radius: 4px;
+    background-color:#fff;
+    border: solid 1px #e6e6e6;
+        text-align: center;
+   padding: 60px 0;
+   
+}
+.right .login-panel .logo img{
+    width: 175px;
+}
+.right .login-panel form{
+    display: flex;
+    flex-direction: column;
+}
+.right .get-app-panel  {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.right .get-app-panel .app-button img{
+    width: 135px ;
+}
+.get-app-panel{
+    margin-top: 20px;
+    
+}
+.app-button{
+    margin-top:16px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    color:rgb(161, 160, 160);
+   
+}
+footer a{
+    color:rgb(161, 160, 160);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+}
